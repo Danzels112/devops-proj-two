@@ -30,6 +30,7 @@
   ![PortalEvidence](./media/portalEvidence.png)
 
 * Project cloned into Azure Cloud Shell
+
   ![remoteCloned](./media/gitRemote.png)
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile` | Output of a test run
