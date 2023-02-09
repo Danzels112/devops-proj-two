@@ -42,7 +42,7 @@
 
   - DevOps Pipeline Project is set up (linked with GitHub account):
 
-  ![project1](./media/project1.png
+  ![project1](./media/project1.png)
 
 * Running Azure App Service from Azure Pipelines automatic deployment
 
