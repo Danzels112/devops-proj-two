@@ -40,7 +40,19 @@
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
+  - DevOps Pipeline Project is set up (linked with GitHub account):
+
+  ![project1](./media/project1.png
+
 * Running Azure App Service from Azure Pipelines automatic deployment
+
+  - Deployment and build triggered via remote repository is successfull:
+
+  ![project2](./media/project2.png)
+  
+  - Post Deployment evidence providing Azure WebApp URL:
+
+  ![project3](./media/project3.png)
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
