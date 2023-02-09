@@ -57,7 +57,7 @@
 * #### Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
 
-   - Prediction of ML Model:
+  - Prediction of ML Model:
   
     ![prediction](./media/prediction.png)
 
