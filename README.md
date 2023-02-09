@@ -32,9 +32,10 @@
 * Project cloned into Azure Cloud Shell
   ![remoteCloned](./media/gitRemote.png)
 
-* Passing tests that are displayed after running the `make all` command from the `Makefile`
+* Passing tests that are displayed after running the `make all` command from the `Makefile` | Output of a test run
 
-* Output of a test run
+  - There are no tests available from cloned project repository and the test code is commented. This might refer to the first steps when we are just testing things out:
+  ![testResult](./media/demoTests.png)
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
