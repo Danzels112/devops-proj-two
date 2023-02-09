@@ -58,6 +58,7 @@
 The output should look similar to this:
 
   - Prediction of ML Model:
+  
   ![prediction](./media/prediction.png)
 
 * Output of streamed log files from deployed application
