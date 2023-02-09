@@ -17,13 +17,16 @@
 
 * Project running on Azure App Service
   
-  In Azure Cloud, using the Cloud shell (make sure to be located in your project folder, the App Service will create artifact with curruent folder) execute: 
+  - In Azure Cloud, using the Cloud shell (make sure to be located in your project folder, the App Service will create artifact with curruent folder) execute:
+  
   `az webapp up --name test-dev-proj2-webapp --resource-group devops-project-2 --runtime "PYTHON:3.9"`
   
-  After waiting couple minutes of deployment, and post deployment configuration (performed by Azure) we can see that our site is working: 
+  - After waiting couple minutes of deployment, and post deployment configuration (performed by Azure) we can see that our site is working:
+  
   ![Working Azure WebApp](./media/workingWebappService.png)
   
-  This can also be verified in Azure Portal, under the resource group used, you should see the deployed WebApp Service as well as the plan associated with it:
+  - This can also be verified in Azure Portal, under the resource group used, you should see the deployed WebApp Service as well as the plan associated with it:
+
   ![PortalEvidence](./media/portalEvidence.png)
 
 * Project cloned into Azure Cloud Shell
