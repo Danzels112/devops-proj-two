@@ -23,45 +23,45 @@
   
   - After waiting couple minutes of deployment, and post deployment configuration (performed by Azure) we can see that our site is working:
   
-  ![Working Azure WebApp](./media/workingWebappService.png)
+    ![Working Azure WebApp](./media/workingWebappService.png)
   
   - This can also be verified in Azure Portal, under the resource group used, you should see the deployed WebApp Service as well as the plan associated with it:
 
-  ![PortalEvidence](./media/portalEvidence.png)
+    ![PortalEvidence](./media/portalEvidence.png)
 
-* Project cloned into Azure Cloud Shell
+* #### Project cloned into Azure Cloud Shell
 
-  ![remoteCloned](./media/gitRemote.png)
+    ![remoteCloned](./media/gitRemote.png)
 
-* Passing tests that are displayed after running the `make all` command from the `Makefile` | Output of a test run
+* #### Passing tests that are displayed after running the `make all` command from the `Makefile` | Output of a test run
 
   - There are no tests available from cloned project repository and the test code is commented. This might refer to the first steps when we are just testing things out:
-  ![testResult](./media/demoTests.png)
+    ![testResult](./media/demoTests.png)
 
-* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+* #### Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
   - DevOps Pipeline Project is set up (linked with GitHub account):
 
-  ![project1](./media/project1.png)
+    ![project1](./media/project1.png)
 
-* Running Azure App Service from Azure Pipelines automatic deployment
+* #### Running Azure App Service from Azure Pipelines automatic deployment
 
   - Deployment and build triggered via remote repository is successfull:
 
-  ![project2](./media/project2.png)
+    ![project2](./media/project2.png)
   
   - Post Deployment evidence providing Azure WebApp URL:
 
-  ![project3](./media/project3.png)
+    ![project3](./media/project3.png)
 
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
+* #### Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
 
   - Prediction of ML Model:
   
-  ![prediction](./media/prediction.png)
+    ![prediction](./media/prediction.png)
 
-* Output of streamed log files from deployed application
+* #### Output of streamed log files from deployed application
 
 > 
 ## Enhancements
