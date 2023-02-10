@@ -1,6 +1,6 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+Main target is to deploy ML Application which predicts housing prices in certain state of USA. Showcasing the use of Agile planning and how CI/CD capabilities can provide a fast and robust way to deploy application in serverless environment in automated fashion. Technology: GitHub, GitHub Actions (CI), Agile, Boards, Azure, Azure DevOps, Pipelines (CD), Azure WebApp.
 
 ## Project Plan
 <TODO: Project Plan
@@ -66,7 +66,10 @@ The output should look similar to this:
 > 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+  - Forked code from provided repository should be checked after the fork, as we can see that for example Python 3.7 is used as basis for our deployment, however at certain point Security patches to this version will not be supported anymore. If application runs on higher versions of Python, like in this case Python 3.9, then it can be used. (This comment also applies to othe module requirements specified)
+  - Source code in app.py should be checked, not all of it functional at this time (check ML models).
+  - It is possible to deploy application to Azure WebApp via GitHub Actions directly, in real scenario, Azure Pipeline step creates additional complexity and introduces additional costs.
+  - Real Application code testing could be a good improvement
 
 ## Demo 
 
