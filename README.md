@@ -1,3 +1,5 @@
+[![Python application test with Github Actions](https://github.com/Danzels112/devops-proj-two/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/Danzels112/devops-proj-two/actions/workflows/pythonapp.yml)
+
 # Overview
 
 Main target is to deploy ML Application which predicts housing prices in certain state of USA. Showcasing the use of Agile planning and how CI/CD capabilities can provide a fast and robust way to deploy application in serverless environment in automated fashion. Technology: GitHub, GitHub Actions (CI), Agile, Boards, Azure, Azure DevOps, Pipelines (CD), Azure WebApp.
