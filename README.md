@@ -39,6 +39,8 @@ Main target is to deploy ML Application which predicts housing prices in certain
 
   - There are no tests available from cloned project repository and the test code is commented. This might refer to the first steps when we are just testing things out:
     ![testResult](./media/demoTests.png)
+    ![makeAll1](./media/makeall1.png)
+    ![makeAll2](./media/makeall2.png)
 
 * #### Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
