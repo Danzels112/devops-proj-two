@@ -5,9 +5,8 @@
 Main target is to deploy ML Application which predicts housing prices in certain state of USA. Showcasing the use of Agile planning and how CI/CD capabilities can provide a fast and robust way to deploy application in serverless environment in automated fashion. Technology: GitHub, GitHub Actions (CI), Agile, Boards, Azure, Azure DevOps, Pipelines (CD), Azure WebApp.
 
 ## Project Plan
-<TODO: Project Plan
 
-* A link to a Trello board for the project
+* A link to a [Trello board](https://trello.com/b/MUGMnlLL/ci-cd-devops-project) for the project
 * Project plan can be found [here](https://github.com/Danzels112/devops-proj-two/blob/main/media/CICD-PM.xlsx)
 
 ## Instructions
