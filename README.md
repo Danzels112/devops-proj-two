@@ -76,4 +76,4 @@ The output should look similar to this:
 
 ## Demo 
 
-![Demo in Youtube](https://www.youtube.com/watch?v=6IZ8VHd_UL4)
+[Demo in Youtube](https://www.youtube.com/watch?v=6IZ8VHd_UL4)
